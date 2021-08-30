@@ -1,0 +1,9 @@
+subgraphs:
+    user:
+      routing_url: http://localhost:8080
+      schema:
+        subgraph_url: http://localhost:8080
+    posts:
+      routing_url: http://localhost:8081
+      schema:
+        subgraph_url: http://localhost:8081
